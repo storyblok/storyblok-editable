@@ -1,0 +1,50 @@
+{
+  "name": "@storyblok/storyblok-editable",
+  "version": "1.0.0",
+  "description": "Create editable components for Storyblok",
+  "keywords": [
+    "javascript",
+    "storyblok"
+  ],
+  "repository": "git@github.com:storyblok/storyblok-editable.git",
+  "author": {
+    "name": "Storyblok",
+    "email": "it@storyblok.com",
+    "url": "https://www.storyblok.com/"
+  },
+  "contributors": [
+    {
+      "name": "Facundo Giuliani",
+      "email": "fg@storyblok.com",
+      "url": "https://www.storyblok.com/"
+    },
+    {
+      "name": "Arisa Fukuzaki",
+      "email": "arisa.fukuzaki@storyblok.com",
+      "url": "https://www.storyblok.com/"
+    }
+  ],
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "scripts": {
+    "build": "babel -d lib/ src/ && date",
+    "build:watch": "watch 'npm run build' ./src",
+    "test": "echo \"No test specified\" && exit 0",
+    "prepare": "npm run-script build"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-runtime": "~6.12.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-runtime": "~6.11.6",
+    "watch": "~0.19.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-2"
+    ]
+  }
+}
