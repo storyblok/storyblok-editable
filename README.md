@@ -11,7 +11,7 @@ $ npm install @storyblok/storyblok-editable --save
 ### Example
 
 ```js
-import sbEditable from "@storyblok/storyblok-editable";
+import { sbEditable } from "@storyblok/storyblok-editable";
 
 return <div {...sbEditable(blok)}></div>;
 ```
