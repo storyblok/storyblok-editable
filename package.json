@@ -46,5 +46,8 @@
       "es2015",
       "stage-2"
     ]
+  },
+  "release": {
+    "branches": ["main", "next"]
   }
 }
