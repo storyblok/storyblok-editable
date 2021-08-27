@@ -49,5 +49,8 @@
   },
   "release": {
     "branches": ["main", "next"]
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
