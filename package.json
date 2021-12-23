@@ -1,6 +1,6 @@
 {
   "name": "@storyblok/storyblok-editable",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create editable components for Storyblok",
   "keywords": [
     "javascript",
@@ -26,6 +26,7 @@
   ],
   "license": "MIT",
   "main": "./lib/index.js",
+  "types": "./lib/sb-editable.d.ts",
   "scripts": {
     "build": "babel -d lib/ src/ && date",
     "build:watch": "watch 'npm run build' ./src",
@@ -39,7 +40,7 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "babel-runtime": "~6.11.6",
-    "watch": "~0.19.1"
+    "watch": "^0.13.0"
   },
   "babel": {
     "presets": [
@@ -48,7 +49,10 @@
     ]
   },
   "release": {
-    "branches": ["main", "next"]
+    "branches": [
+      "main",
+      "next"
+    ]
   },
   "publishConfig": {
     "access": "public"
