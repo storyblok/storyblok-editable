@@ -1,5 +1,7 @@
 # Storyblok Editable
 
+> This package is deprecated. Please use the Storyblok SDK for React or Gatsby. Or you can use the [@storyblok/js](https://github.com/storyblok/storyblok-js) package.
+
 Use this module to make your components editable in [storyblok.com](https://www.storyblok.com/)
 
 ### Installation
